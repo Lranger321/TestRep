@@ -1,5 +1,6 @@
 $(function () {
 
+    // отправляем пост запрос на сервер для получения ставки
     $(document).on('click', '#send-form', function () {
         let houseType = $("#group").val();
         let group = $("#house_type").val();
