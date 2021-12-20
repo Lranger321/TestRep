@@ -1,0 +1,6 @@
+spring.datasource.url: jdbc:postgresql://localhost:5432/qweqa?allowPublicKeyRetrieval=true&useUnicode=true&serverTimezone=UTC&characterEncoding=UTF-8&useSSL=false
+spring.datasource.username: postgres
+spring.datasource.password: root
+spring.jpa.hibernate.ddl-auto: none
+spring.datasource.hikari.maxLifeTime: 60000
+

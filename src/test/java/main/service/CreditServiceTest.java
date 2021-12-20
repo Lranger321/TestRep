@@ -37,9 +37,9 @@ class CreditServiceTest {
 
     private static Stream<Arguments> getBranches() {
         return Stream.of(
-                Arguments.of(new CreditDTO("riskHouse", "elder"), 16d),
-                Arguments.of(new CreditDTO("newHouse", "bank"), 9d),
-                Arguments.of(new CreditDTO("riskHouse", "bank"), 13d)
+                Arguments.of(new CreditDTO("Дом с рисками", "Старше 35"), 16d),
+                Arguments.of(new CreditDTO("Новый дом", "Работник банка"), 9d),
+                Arguments.of(new CreditDTO("Дом с рисками", "Работник банка"), 13d)
         );
     }
 }

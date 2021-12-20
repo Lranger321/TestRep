@@ -6,12 +6,12 @@ import lombok.Getter;
 @AllArgsConstructor
 @Getter
 public enum CreditType {
-    BASE_GROUP("base"),
-    ELDER_GROUP("elder"),
-    BANK_GROUP("bank"),
-    NEW_HOUSE("newHouse"),
-    BASE_HOUSE("baseHouse"),
-    RISK_HOUSE("riskHouse");
+    BASE_GROUP("Младше 35"),
+    ELDER_GROUP("Старше 35"),
+    BANK_GROUP("Работник банка"),
+    NEW_HOUSE("Новый дом"),
+    BASE_HOUSE("Обычный дом"),
+    RISK_HOUSE("Дом с рисками");
 
     private String type;
 
